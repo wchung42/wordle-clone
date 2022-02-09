@@ -1,0 +1,56 @@
+h1 {
+    width: 100%;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 700%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding-bottom: 3%;
+}
+.border {
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    display: block;
+}
+.board {
+    width: 100%;
+    border: 1px solid black;
+    /* padding: 0px;
+    margin: 0px; */
+    height: 100%;
+    /* list-style: none; */
+    /* -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex; */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* .wrap {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+} */
+
+/* .wrap li {
+    background: gold;
+} */
+
+.guess-boxes {
+    background: tomato;
+    width: 80px;
+    height: 80px;
+    margin: 17px 5px 15px 10px;
+    
+
+    line-height: 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
